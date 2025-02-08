@@ -26,7 +26,7 @@ abstract class DefaDatabase : RoomDatabase() {
                 ).build()
                 INSTANCE = instance
                 instance
-            }
+            }  
         }
     }
 }
