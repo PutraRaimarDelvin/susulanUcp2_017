@@ -18,3 +18,5 @@ val appModule = module {
     viewModel { DokterViewModel(get(), get()) } // Memastikan parameter sesuai dengan constructor ViewModel
     viewModel { JadwalViewModel(get()) }
 }
+
+
