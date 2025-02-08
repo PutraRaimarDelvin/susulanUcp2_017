@@ -11,4 +11,4 @@ class LocalRepoDr(private val dokterDao: DokterDao) {
     suspend fun getAllDokter(): List<Dokter> {
         return dokterDao.getAllDokter()
     }
-}  
+}
